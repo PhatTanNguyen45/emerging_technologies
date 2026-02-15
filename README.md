@@ -10,7 +10,7 @@ Run the following commands to set up and launch the notebook:
 git clone https://github.com/PhatTanNguyen45/emerging_technologies
 cd emerging_technologies
 pip install -r requirements.txt
-jupyter notebook problems.ipynb
+jupyter notebook
 ```
 
 ## Folder Organization
