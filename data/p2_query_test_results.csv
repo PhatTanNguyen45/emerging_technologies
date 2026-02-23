@@ -1,0 +1,5 @@
+test_id,function_description,queries_used,result,correct
+p2_t1,constant_true (always returns True),9,constant,True
+p2_t2,constant_false (always returns False),9,constant,True
+p2_t3,balanced_identity (f(x) = x),9,balanced,True
+p2_t4,balanced_negation (f(x) = NOT x),9,balanced,True

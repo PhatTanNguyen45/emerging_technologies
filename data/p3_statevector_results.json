@@ -1,0 +1,122 @@
+{
+  "oracle_constant_0": {
+    "input_00": {
+      "amplitudes_real": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "input_10": {
+      "amplitudes_real": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "oracle_constant_1": {
+    "input_00": {
+      "amplitudes_real": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "input_10": {
+      "amplitudes_real": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "oracle_identity": {
+    "input_00": {
+      "amplitudes_real": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "input_10": {
+      "amplitudes_real": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "oracle_negation": {
+    "input_00": {
+      "amplitudes_real": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "input_10": {
+      "amplitudes_real": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amplitudes_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

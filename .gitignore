@@ -22,3 +22,6 @@ $RECYCLE.BIN/
 build/
 dist/
 *.egg-info/
+
+# Large generated data artifact (do not commit to GitHub)
+data/large_simulation_output.csv
