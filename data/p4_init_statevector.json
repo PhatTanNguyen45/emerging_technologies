@@ -1,0 +1,17 @@
+{
+  "stage": "initialisation",
+  "description": "State |psi_1> = |+>|-> before oracle",
+  "basis_order": "|q0 q1> as [|00>, |01>, |10>, |11>]",
+  "amplitudes_real": [
+    0.4999999999999999,
+    -0.4999999999999999,
+    0.4999999999999999,
+    -0.4999999999999999
+  ],
+  "amplitudes_imag": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}
