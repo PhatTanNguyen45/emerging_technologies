@@ -1,0 +1,5 @@
+oracle_name,expected_type,classified_as,dominant_bit,confidence_pct,raw_counts,correct
+Constant 0,constant,constant,0,100.0,{'0': 1024},True
+Constant 1,constant,constant,0,100.0,{'0': 1024},True
+Identity (Balanced),balanced,balanced,1,100.0,{'1': 1024},True
+Negation (Balanced),balanced,balanced,1,100.0,{'1': 1024},True
