@@ -41,10 +41,19 @@ emerging_technologies/
 │   ├── p1_truth_tables.csv              # Full truth tables for verification
 │   ├── p2_query_test_results.csv        # Classical query efficiency log
 │   ├── p3_oracle_unitaries.json         # Unitary matrices for each oracle
-│   └── p3_statevector_results.json      # Simulated quantum state outputs
+│   ├── p3_statevector_results.json      # Simulated quantum state outputs
+│   ├── p4_init_statevector.json         # Part 1 state preparation snapshot
+│   ├── p4_deutsch_results.csv           # Part 2 oracle classifications
+│   └── p4_statevector_stages.json       # Part 3 stage-by-stage amplitudes
 │
 └── /img                        # Visualisations and circuit diagrams
-		└── problem3_oracles.png    # 2×2 grid of all four oracle circuits
+	├── problem3_oracles.png                     # Problem 3 oracle panel
+	├── p4_deutsch_circuit_constant_0.png        # Part 2 circuit diagram
+	├── p4_deutsch_circuit_constant_1.png        # Part 2 circuit diagram
+	├── p4_deutsch_circuit_identity_balanced.png # Part 2 circuit diagram
+	├── p4_deutsch_circuit_negation_balanced.png # Part 2 circuit diagram
+	├── p4_amplitude_evolution.png               # Part 3 amplitude grid
+	└── p4_measurement_histograms.png            # Part 3 shot histograms
 ```
 
 All files in `/data` and `/img` are generated automatically when `problems.ipynb` is executed from top to bottom. No manual file creation is required. If any output file already exists, the notebook will overwrite it safely.
@@ -106,12 +115,12 @@ Once the notebook is open, select **Kernel → Restart & Run All** to execute al
 
 ## Problems Overview
 
-| Problem | Title | Approach | Key Output |
-|---------|-------|----------|------------|
-| 1 | Boolean Function Generation | Classical Python | Truth tables → `/data` |
-| 2 | Classical Function Testing | Classical Python | Query log → `/data` |
-| 3 | Quantum Oracles | Qiskit circuits | Unitary matrices, circuit diagrams |
-| 4 | Deutsch's Algorithm | Qiskit + simulation | Single-query classification |
+| Problem | Title | Approach | Key Output | Status |
+|---------|-------|----------|------------|--------|
+| 1 | Boolean Function Generation | Classical Python | Truth tables -> /data | Complete |
+| 2 | Classical Function Testing | Classical Python | Query log -> /data | Complete |
+| 3 | Quantum Oracles | Qiskit circuits | Unitary matrices, circuit diagrams | Complete |
+| 4 | Deutsch's Algorithm | Qiskit + simulation | Single-query classification, interference plots, audit artifacts | Complete (Part 3 Final) |
 
 Problems 1 and 2 establish a classical baseline, demonstrating that deterministic identification of a 4-bit Boolean function requires up to 2^(n-1) + 1 = 9 queries. Problems 3 and 4 show how Deutsch's quantum algorithm solves the equivalent 1-bit problem in a single query, illustrating an exponential separation in query complexity.
 
