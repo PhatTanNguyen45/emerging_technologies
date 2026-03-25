@@ -121,6 +121,7 @@ Once the notebook is open, select **Kernel → Restart & Run All** to execute al
 | 2 | Classical Function Testing | Classical Python | Query log -> /data | Complete |
 | 3 | Quantum Oracles | Qiskit circuits | Unitary matrices, circuit diagrams | Complete |
 | 4 | Deutsch's Algorithm | Qiskit + simulation | Single-query classification, interference plots, audit artifacts | Complete (Part 3 Final) |
+| 5 | Deutsch-Jozsa (4-bit) | Qiskit 5-qubit circuit | Truth tables, histograms -> /data /img | Complete |
 
 Problems 1 and 2 establish a classical baseline, demonstrating that deterministic identification of a 4-bit Boolean function requires up to 2^(n-1) + 1 = 9 queries. Problems 3 and 4 show how Deutsch's quantum algorithm solves the equivalent 1-bit problem in a single query, illustrating an exponential separation in query complexity.
 

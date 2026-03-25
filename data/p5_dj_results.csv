@@ -1,0 +1,5 @@
+function_id,expected_type,classified_as,dominant_bitstr,confidence_pct,raw_counts,correct
+constant_0,constant,constant,0000,100.0,{'0000': 1024},True
+constant_1,constant,constant,0000,100.0,{'0000': 1024},True
+balanced_first_half,balanced,balanced,1000,100.0,{'1000': 1024},True
+balanced_parity,balanced,balanced,1111,100.0,{'1111': 1024},True
