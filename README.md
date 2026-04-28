@@ -44,16 +44,25 @@ emerging_technologies/
 │   ├── p3_statevector_results.json      # Simulated quantum state outputs
 │   ├── p4_init_statevector.json         # Part 1 state preparation snapshot
 │   ├── p4_deutsch_results.csv           # Part 2 oracle classifications
-│   └── p4_statevector_stages.json       # Part 3 stage-by-stage amplitudes
+│   ├── p4_statevector_stages.json       # Part 3 stage-by-stage amplitudes
+│   ├── p5_truth_tables.csv              # 4-bit function truth tables (Problem 5)
+│   └── p5_dj_results.csv                # Deutsch-Jozsa classifications (Problem 5)
 │
-└── /img                        # Visualisations and circuit diagrams
-	├── problem3_oracles.png                     # Problem 3 oracle panel
-	├── p4_deutsch_circuit_constant_0.png        # Part 2 circuit diagram
-	├── p4_deutsch_circuit_constant_1.png        # Part 2 circuit diagram
-	├── p4_deutsch_circuit_identity_balanced.png # Part 2 circuit diagram
-	├── p4_deutsch_circuit_negation_balanced.png # Part 2 circuit diagram
-	├── p4_amplitude_evolution.png               # Part 3 amplitude grid
-	└── p4_measurement_histograms.png            # Part 3 shot histograms
+├── /img                        # Visualisations and circuit diagrams
+│   ├── problem3_oracles.png                       # Problem 3 oracle panel
+│   ├── p4_deutsch_circuit_constant_0.png          # Part 2 circuit diagram
+│   ├── p4_deutsch_circuit_constant_1.png          # Part 2 circuit diagram
+│   ├── p4_deutsch_circuit_identity_balanced.png   # Part 2 circuit diagram
+│   ├── p4_deutsch_circuit_negation_balanced.png   # Part 2 circuit diagram
+│   ├── p4_amplitude_evolution.png                 # Part 3 amplitude grid
+│   ├── p4_measurement_histograms.png              # Part 3 shot histograms
+│   ├── p5_dj_circuit_constant_0.png               # Problem 5 circuit diagram
+│   ├── p5_dj_circuit_constant_1.png               # Problem 5 circuit diagram
+│   ├── p5_dj_circuit_balanced_first_half.png      # Problem 5 circuit diagram
+│   ├── p5_dj_circuit_balanced_parity.png          # Problem 5 circuit diagram
+│   └── p5_measurement_histograms.png              # Problem 5 shot histograms
+│
+└── /roughwork                  # Backup and working files (not in version control)
 ```
 
 All files in `/data` and `/img` are generated automatically when `problems.ipynb` is executed from top to bottom. No manual file creation is required. If any output file already exists, the notebook will overwrite it safely.

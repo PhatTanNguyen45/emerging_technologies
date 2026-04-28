@@ -1,35 +1,15 @@
-# You do not have to use all modules listed here.
-# Ask before using anything else.
+# Core scientific computing
+numpy>=1.21
+pandas>=1.3
 
-# Interactive Python shell.
-ipython
-# Jupyter notebook/lab support.
-ipykernel
-# Jupyter lab.
-jupyterlab
-# Jupyter notebook.
-notebook
-# Numerical arrays.
-numpy
-# Data Frames.
-pandas
-# Scientific computing.
-scipy
-# Statistical modeling.
-statsmodels
-# Download financial market data.
-yfinance
-# Plotting.
-matplotlib
-# Statistical data visualization.
-seaborn
-# Quantum computing.
-qiskit[visualization]
-# Quantum simulators.
-qiskit-aer
-# Machine learning.
-scikit-learn
-# Symbolic mathematics.
-sympy
-# Testing.
-pytest
+# Visualization
+matplotlib>=3.4
+
+# Quantum computing
+qiskit>=1.0
+qiskit-aer>=0.13
+
+# Jupyter support
+jupyter>=1.0
+ipython>=7.0
+ipykernel>=6.0
